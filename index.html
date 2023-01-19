@@ -4,9 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Document</title>
 </head>
 <body>
-    <h1>Hello World, we are software developers!</h1>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <h1 id="title">Survey Form</h1>
+<p id="description">Please fill in your information in the survey below</p>
+<form id="survey-form">
+  <label id="name-label">Name</label>
+  <input id="name" type="text" placeholder="Your Name" required>
+
+  <label id="email-label">Email</label>
+  <input id="email" type="email" placeholder="Edwin@gmail.com" required>
+
+  <label id="number-label">Age</label>
+  <input id="number" type="number" placeholder="age" min="18" max="35">
+  <select id="dropdown"> 
+<option value= "Movies">Movies</option>
+<option value= "Tv-Shows">TV-Shows</option>
+  </select>
+  
+  <input type="radio" name="One" value="one" unchecked>Test</input>
+<input type="radio" name="One" unchecked value="one">Exam</input>
+<input type="checkbox" value="Multix1"> Book </input>
+<input type="checkbox" value="Multix2">
+Sports</input>
+<input type ="checkbox" value="Mulitx3">Watching TV</input>
+<textarea placeholder="Please Comment Here "></textarea>
+<button id="submit" > Submit</button>
+ </form>
+
+    <script src="index.js"></script>
 </body>
 </html>
